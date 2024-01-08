@@ -13,14 +13,10 @@
     ./gradlew build does not report a warning for the unwanted
     behavior.
 
-* Things I have already tried.
+* I have also
 
   + Built the artifact for the paper Nullaway and was able to see the
     warnings reported during the build.
-
-  + I tried introducing my own application with possible null
-    dereferences in the application but was not able to see any
-    warnings.
 
 
 
