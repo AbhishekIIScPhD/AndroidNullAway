@@ -18,6 +18,8 @@
   + Built the artifact for the paper Nullaway and was able to see the
     warnings reported during the build.
 
+  + Built the NullAway project and the sample application, uncommented
+    the suggested code but I dont see warnings/errors.
 
 
 
