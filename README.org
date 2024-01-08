@@ -1,0 +1,23 @@
+* Deploying Nullaway for an Android Application
+
+** This repo has a sample application consisting of the build 
+   changes to enable Nullaway annotation processor during build.
+
+** I have made change to build.gradle of the application as suggested in the README of Nullaway.
+
+** I have introduced an unwanted behaviour by passing null to @Nonnull annotated variable and hence 
+   dereferencing the variable.
+
+** Both the build click from within the Android Studio or doing ./gradlew build does not report a warning 
+   for the unwanted behavior
+
+* Things I have already tried.
+
+** Built the artifact for the paper Nullaway and was able to see the warnings reported during the build.
+
+** I tried introducing my own application with possible null dereferences in the application but was not 
+   able to see any warnings.
+
+
+
+
